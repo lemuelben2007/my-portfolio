@@ -376,6 +376,29 @@ nav a:hover {
     font-weight: bold;
     letter-spacing: 0.5px;
 }
+        .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1684ed, #176bc2);
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 18px rgba(22, 132, 237, 0.35);
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(22, 132, 237, 0.5);
+}
     </style>
 </head>
 
@@ -599,5 +622,8 @@ nav a:hover {
     <p>BSIT Student & Developer</p>
     <p>© 2026 Lemuel Ben. All Rights Reserved.</p>
 </footer>
+    <a href="#home" class="back-to-top" title="Back to Top">
+    ↑
+</a>
 </body>
 </html>
